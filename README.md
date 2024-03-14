@@ -5,17 +5,17 @@ Testautomatisering och Programmering av Alexander Sandberg
 # Lämna in en textfil där länken till ditt publika github-
 repo finns tillgängligt
 # Krav:
-1. [ ]  Skriv ett program som gör om morsekod till engelska
+1. [x]  Skriv ett program som gör om morsekod till engelska
 och engelska till morsekod
 #  Skriv programmet med minst en logikklass samt en
-1. [ ] klass som läser in text och skriver ut text (med en
+1. [x] klass som läser in text och skriver ut text (med en
 main-metod)
-2. [ ] Använd den internationella morsekoden (se slide 4)
+2. [x] Använd den internationella morsekoden (se slide 4)
  Utveckla programmet i TDD och skriv minst 3 JUnit-
 testfall
 # Skapa minst två felhanteringar i systemet som fångar
-1. [ ] två saker som användaren kan göra som går utanför
-2. [ ] det vanliga användandet av systemet
+1. [x] två saker som användaren kan göra som går utanför
+2. [x] det vanliga användandet av systemet
 # Tips:
 1. In- och utmatningsalternativ är valfritt (Du kan alltså
 använda Scanner för att läsa in text och
