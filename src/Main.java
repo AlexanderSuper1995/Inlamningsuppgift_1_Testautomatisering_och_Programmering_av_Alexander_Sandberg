@@ -10,7 +10,7 @@ public class Main {
         System.out.println("-------------------------");
         System.out.println("1 skiva engelska - ");
         System.out.println("-------------------------");
-        System.out.println("2 skiva moucode - ");
+        System.out.println("2 skiva International Morse Code - ");
         System.out.println("-------------------------");
         System.out.println("3 - Quit");
 
@@ -19,12 +19,12 @@ public class Main {
 
         switch (choice) {
             case "1":
-                System.out.println( "Skiv en bokstv i taget ");
+                System.out.println( "Skriv en bokstav i taget ");
                 String Input = Sc.nextLine();
                 System.out.println(x.gettext(Input.toUpperCase()));
                 break;
             case "2":
-                System.out.println( "Skiv en kode  i taget ");
+                System.out.println( "Skriv en kode i taget ");
                 String Input2 = Sc.nextLine();
                 System.out.println(x.gettext(Input2.toUpperCase()));
                 break;
