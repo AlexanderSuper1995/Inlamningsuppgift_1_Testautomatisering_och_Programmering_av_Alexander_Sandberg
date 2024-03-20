@@ -26,7 +26,7 @@ class MainTest {
         assertEquals(expected, actual);
     }
     @Test
-    void test4_när_det_inte_finns() {
+    void test4_when_it_doesnt_exist() {
         logikklass x = new logikklass();
         String actual = x.gettext("CC");
         String expected = "Det finns inte CC";
