@@ -21,12 +21,12 @@ public class Main {
             case "1":
                 System.out.println( "Skriv en bokstav i taget ");
                 String Input = Sc.nextLine();
-                System.out.println(x.gettext(Input.toUpperCase()));
+                System.out.println(x.gettext(Input));
                 break;
             case "2":
                 System.out.println( "Skriv en kode i taget ");
                 Input = Sc.nextLine();
-                System.out.println(x.gettext(Input.toUpperCase()));
+                System.out.println(x.gettext(Input));
                 break;
             case "3":
                 System.exit(0);

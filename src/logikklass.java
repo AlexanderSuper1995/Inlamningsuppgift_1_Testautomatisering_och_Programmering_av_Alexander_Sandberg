@@ -90,9 +90,9 @@ public class logikklass {
     }
 
     public String gettext(String args) {
-        String args2 = map.get(args);
+        String args2 = map.get(args.toUpperCase());
         if (args2 != null) {
-            return map.get(args);
+            return args2;
         } else {
             return "Det finns inte "+args;
         }
