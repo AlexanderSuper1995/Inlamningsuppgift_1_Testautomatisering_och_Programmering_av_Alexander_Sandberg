@@ -26,7 +26,6 @@ public class Main {
             case "2":
                 System.out.println( "Skiv en kode  i taget ");
                 String Input2 = Sc.nextLine();
-                System.out.println("2 - test");
                 System.out.println(x.gettext(Input2.toUpperCase()));
                 break;
             case "3":

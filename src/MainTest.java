@@ -25,6 +25,13 @@ class MainTest {
         String expected = "C";
         assertEquals(expected, actual);
     }
+    @Test
+    void test4_när_det_inte_finns() {
+        logikklass x = new logikklass();
+        String actual = x.gettext("CC");
+        String expected = "Det finns inte CC";
+        assertEquals(expected, actual);
+    }
 
 
     }
