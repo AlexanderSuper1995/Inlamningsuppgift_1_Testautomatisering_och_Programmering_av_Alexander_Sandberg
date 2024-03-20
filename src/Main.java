@@ -25,8 +25,8 @@ public class Main {
                 break;
             case "2":
                 System.out.println( "Skriv en kode i taget ");
-                String Input2 = Sc.nextLine();
-                System.out.println(x.gettext(Input2.toUpperCase()));
+                Input = Sc.nextLine();
+                System.out.println(x.gettext(Input.toUpperCase()));
                 break;
             case "3":
                 System.exit(0);
